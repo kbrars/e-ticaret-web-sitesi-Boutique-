@@ -1,0 +1,102 @@
+body{
+    background-color: rgba(172, 169, 169, 0.548);
+}
+.giris{
+    width: 100%;
+    height:700px;
+    border-top: solid red 1px;
+}
+.girisici{
+   float:left;
+    width: 30%;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 10%;
+
+ background-color: rgba(221, 221, 221, 0.589);
+ -moz-box-shadow:5px 5px 15px 3px #666;
+-webkit-box-shadow: 5px 5px 15px 3px #666;
+box-shadow: 5px 5px 15px 3px #666;
+
+
+}
+
+
+.girisici>h3{
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    font-size: 70px;
+}
+.grs{
+    padding: 40px;
+    font-size: 25px;
+}
+.inp{
+    height: 40px;
+    width:300px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(196, 194, 194, 0.733);
+    border-bottom: solid rgba(48, 198, 224, 0.575) 2px;
+}
+
+.grssubmit{
+    width: 80px;
+    height: 40px;
+    color:white;
+    float: right;
+    margin-right: 70px;
+    background: none;
+    
+    border: solid rgba(48, 198, 224, 0.575) 2px;
+    font-family: 'Roboto', sans-serif;
+}
+.grssubmit:hover{
+background: rgba(128, 128, 128, 0.603);
+width: 90px;
+height: 50px;
+}
+
+.uyelik{
+    width: 45%;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 10%;
+ background-color:rgba(221, 221, 221, 0.589);
+ -moz-box-shadow:5px 5px 15px 3px rgb(19, 230, 219);
+-webkit-box-shadow: 5px 5px 15px 3px rgb(0, 194, 228);
+box-shadow: 5px 5px 15px 3px rgb(81, 93, 94);
+float: left;
+}
+.uyelik>h3{
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    font-size: 70px;
+}
+.uye{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.adresgirisi{
+    background: rgba(196, 194, 194, 0.733);
+    font-family: 'Roboto', sans-serif;
+}
+.uyesumbit{
+    width: 100px;
+    height: 60px;
+    color:white;
+    float: right;
+    font-size: 20px;
+    margin-top: 80px;
+    background: none;
+    margin-right: 100px;
+    border: solid rgba(48, 198, 224, 0.575) 2px;
+    font-family: 'Roboto', sans-serif; 
+}
+.uyesumbit:hover{
+    background: rgba(128, 128, 128, 0.603);
+    width: 120px;
+    height: 75px;
+    }

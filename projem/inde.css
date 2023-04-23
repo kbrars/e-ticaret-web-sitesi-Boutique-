@@ -1,0 +1,426 @@
+*{
+    padding:0;
+margin: 0;
+border: 0;
+list-style: none;
+font-family:  'Josefin Sans', sans-serif;
+}
+
+
+
+/* heaeder css */
+.menu{
+
+
+width: 100%;
+height: 70px;
+background-color: black;
+position: fixed;
+}
+
+.menubasliklari{
+    
+    height: 100%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.menubasliklari>p{
+    margin-top: 15%;
+
+}
+
+.menubasliklari>a>p{
+    margin-top: 15%;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.aramatext{
+    width: 70%;
+    height: 30px;
+ float: left;
+ margin-left: 5%;
+ margin-top: 6%;
+background-color: black;
+border-bottom: solid  aqua 3px;
+
+}
+.fa-search{
+    color: aqua;
+    float: left;
+    margin-top: 8%;
+    
+    
+}
+
+
+.menubasliklari:hover{
+    background-color: rgb(22, 22, 22);
+
+}
+
+#aramalani:hover{
+    background-color: black;
+}
+
+
+
+/* üst menu responsive */
+@media only  screen and (max-width:1386px){
+    .menubasliklari>p{
+        margin-top: 19%;
+    
+    }
+    .menubasliklari>a>p{
+        margin-top: 19%;
+        color: white;
+        
+    }
+    }
+
+
+    @media only  screen and (max-width:1006px){
+        .menubasliklari>p{
+            margin-top: 30%;
+        
+        }
+        .menubasliklari>a>p{
+            margin-top: 30%;
+            color: white;
+            
+        }
+        }
+
+        @media only  screen and (max-width:854px){
+            .menubasliklari>p{
+              font-size: 15px ;
+            
+            }
+            .menubasliklari>a>p{
+                margin-top: 15px;
+                color: white;
+                
+            }
+            #aramalani{
+                margin-top: 0.8%;
+            }
+            .fa-search{
+               
+                margin-top: 10%;
+                
+                
+            }
+            }
+    
+
+            @media only  screen and (max-width:846px){
+              
+                .menubasliklari>a>p{
+                    margin-top: 35%;
+                    color: white;
+                    
+                }
+                }
+
+                @media only  screen and (max-width:786px){
+                    .menubasliklari>p{
+                        font-size: 13px ;
+                      
+                      }
+                      .menubasliklari>a>p{
+                          margin-top: 37%;
+                          color: white;
+                          
+                      }
+                      .menubasliklari>a>p{
+                        margin-top: 35%;
+                        color: white;
+                        
+                    }
+                    }
+
+
+                    @media only  screen and (max-width:693px){
+                        .menubasliklari>p{
+                            font-size: 11px ;
+                          
+                          }
+                          .menubasliklari a p{
+                              margin-top: 45%;
+                              color: white;
+                              
+                          }
+                          .menubasliklari>a>p{
+                            margin-top: 45%;
+                            color: white;
+                            font-size: 11px;
+                            
+                        }
+
+                        .menubasliklari>a>p{
+                            margin-top: 45%;
+                            color: white;
+                            
+                        }
+                        .menubasliklari>a>p{
+                          margin-top: 45%;
+                          color: white;
+                          
+                      }
+                        }
+
+
+                        @media only  screen and (max-width:545px){
+                            .menubasliklari>p{
+                                margin-top: 50%;
+                            
+                            }
+                            .menubasliklari>a>p{
+                                margin-top: 50%;
+                                color: white;
+                                
+                            }
+                            #aramalani{
+                                margin-top:0.5%;
+                                margin-left: 10px;
+                            }
+                            .fa-search{
+                               
+                                margin-top: 18%;
+                                
+                                
+                            }
+                            }
+
+                            @media only  screen and (max-width:413px){
+                 .aramatext{
+                     width: 50%;
+                 }
+                               
+                                }
+                        
+
+        /* üst menunun listesi */
+
+        ul{
+               
+    background-color:rgb(22, 22, 22);
+    width:170px;
+    height: 180px;
+    font-size: 15px;
+    position: absolute;
+    top:10px;
+    left: 0;
+    float: left;
+  position: relative;
+  line-height: 60px;
+  opacity: 0;
+      transition: 250ms all;
+        visibility: hidden; 
+        }
+.menubasliklari{
+  
+ 
+    color: white;
+   margin: 0px;
+    float: left;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    font-size: 17px;
+    
+}
+
+.cv>a{
+   display: block;  /*burada  */
+ font-size: 20px;
+    color: aqua;
+
+   
+
+    
+
+}
+.menubasliklari:hover ul{
+    opacity: 1;
+  visibility: visible;
+  top: 15px;
+
+}
+.menubasliklari> ul li  {
+    height: 30px;
+ 
+    color: aqua;
+}
+       
+
+
+.menubasliklari> ul li a:hover  {
+    background-color: rgba(63, 61, 61, 0.404);
+}
+  
+
+/* body css */ 
+
+
+
+.orta{
+    width: 100%;
+    height: 700px;
+    margin: 0px;
+    padding-top:67px;
+    
+}
+
+
+.r{
+    height: 100%;
+    width: 33.3%;
+    float: left;
+    
+    
+}
+#arka{
+    background-image: url("resim/kadıngiyin.jpg");
+   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#ikinciarka{
+    background-image: url("resim/erkekgiyim2.jpg");
+   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#ucuncuarka{
+    background-image: url("resim/çocukgiyim.jpeg");
+   
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+@media only  screen and (max-width:900px){
+    .orta{
+        height: 450px;
+    }
+}
+@media only  screen and (max-width:791px){
+    .orta{
+        height: 350px;
+    }
+}
+@media only  screen and (max-width:640){
+    .orta{
+        height: 3270px;
+    }
+}
+
+
+
+@media only  screen and (max-width:1336px){
+ .orta{
+     height: 650px;
+ }
+   
+}
+
+@media only  screen and (max-width:1170px){
+    .orta{
+        height: 500px;
+    }
+}
+
+@media only  screen and (max-width:929px){
+    .orta{
+        height: 450px;
+    }
+}
+
+
+
+
+/* footer*/
+.footerım{
+    width: 100%;
+    height:500px;
+    background-color: black;
+}
+
+.footerinustu{
+    color: white;
+   
+    height: 60px;
+    width: 100%;
+}
+.footerinustu p{
+    float: left;
+    margin-left: 15%;
+    margin-top: 1%;
+
+}
+@media only  screen and (max-width:793px){
+    .r{
+      
+        float: none;
+        width: 100%;
+        height: 800px;
+        
+    }
+    .orta{
+        height: 2400px;
+    }
+    .footerinustu p{
+        float: left;
+        margin-left: 10%;
+        font-size: 12px;
+        
+    
+    }
+}
+
+.footerinalti{
+    width: 80%;
+    height: 75%;
+
+    margin-left: 10%;
+    background-color:rgba(63, 61, 61, 0.404) ;
+}
+.altfooterparca{
+
+height: 100%;
+width: 33%;
+
+float: left;
+
+}
+.altfooterparca > ol p{
+    color: white;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+.altfooterparca > ol li{
+   
+    margin-left: 10%;
+    margin-top:5%;
+}
+
+.altfooterparca a{
+    color: white;
+    font-size: 15px;
+}
+
+.altfooterparca a:hover{
+    color: aqua;
+    font-size: 20px;
+}

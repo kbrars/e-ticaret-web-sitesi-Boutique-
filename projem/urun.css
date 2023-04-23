@@ -1,0 +1,38 @@
+
+.urunkart{
+    margin-top: 90px;
+    margin-left: 85px;
+    width: 350px;
+    height: 600px;
+    background-color:rgba(221, 221, 221, 0.589);
+    -moz-box-shadow:5px 5px 15px 3px rgb(19, 230, 219);
+   -webkit-box-shadow: 5px 5px 15px 3px rgb(0, 194, 228);
+   box-shadow: 5px 5px 15px 3px rgb(81, 93, 94);
+   float: left;
+   font-family: 'Roboto', sans-serif;
+}
+#resim1{
+    margin-top:6%;
+    margin-left: 15%
+}
+#resim1:hover{
+    width: 65%;
+    margin-top: 3%;
+}
+.urunbilgi{
+    margin-top: 7%;
+    margin-left:5% ;
+    
+ 
+}
+.butn{
+    float: right;
+    margin-right: 40px;
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: black;
+}
+.butn:hover{
+    background-color: rgba(0, 0, 0, 0.767);
+}
